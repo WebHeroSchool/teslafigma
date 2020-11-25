@@ -1,0 +1,539 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    max-width: 1440px;
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 1440px;
+}
+.container {
+    max-width: 1440px;
+    margin-bottom: 40px;
+}
+.nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.nav__logo {
+    margin-top: 24px;
+    margin-right: 260px;
+}
+.nav__menu-s {
+    margin-top: 40px;
+    font-family: "Montserrat";
+    font-style: "normal";
+    margin-right: 63px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.nav__menu-s:hover {
+    color: #E51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.nav__menu-x {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    margin-top: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+}
+.nav__menu-x:hover {
+    color: #E51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.nav__menu-3 {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    margin-top: 40px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+}
+.nav__menu-3:hover {
+    color: #E51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.nav__menu-roadster {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    margin-top: 40px;
+    margin-left: 44px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+}
+.nav__menu-roadster:hover {
+    color: #E51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.nav__menu-energy {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    margin-top: 40px;
+    margin-right: 221px;
+    margin-left: 44px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+}
+.nav__menu-energy:hover {
+    color: #E51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+.menu__item {
+    margin-right: 30px;
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    margin-top: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+}
+.menu__item:hover {
+    color: #E51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.menu__img-burger {
+    margin-top: 24px;
+    margin-right: 60px;
+}
+.menu__img-burger:active {
+    color: yellow;
+}
+.menu__img-burger:hover {
+    opacity: 0.1;
+    cursor: pointer;
+}
+.tesla-title {
+    display: block;
+    background-image: url(/images/Tesla-Wordmark-Red-1.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0px 15%;
+}
+.tesla-title__subtitle {
+    text-align: center;
+    margin-bottom: 9px;
+    font-family: "Montserrat";
+    font-size: 90px;
+    font-style: "normal";
+    font-weight: "SemiBold";
+    line-height: 110px;
+}
+.tesla-title__desk {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Regular";
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 26px;
+}
+.tesla-title__car-pc {
+    margin-left: 199px;
+    margin-bottom: 26px;
+}
+.tesla-title__car-mobi {
+    display: none;
+}
+.tesla-title__car-ipad {
+    display: none;
+}
+.tesla-info-block {
+    display: flex;
+    justify-content: center;
+}
+.info-block__img-pc {
+    margin-right: 105px;
+}
+.info-block__img-ipad {
+    display: none;
+}
+
+.info-block__mobile-right {
+    display: none;
+}
+.info-block__mobile-left {
+    display: none;
+}
+.test-drive {
+    display: flex;
+}
+.test-drive__responsive {
+    padding-bottom: 30px;
+    margin-right: 9px;
+}
+.test-drive__mobile {
+    display: none;
+}
+.test-drive__desk {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-right: 40px;    
+}
+.order {
+    padding: 10px;
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E51937;
+}
+.order:hover {
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+}
+.go-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+.go-bottom:hover {
+    opacity: 0.1;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url(../images/2013-tesla-model-s-cockpit.png);
+}
+.left-section {
+    width: 1000px;
+}
+.left-section__title {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937;
+    margin-left: 80px;
+}
+.right-section {
+    width: 440px;
+    height: 844px;
+    background: #E51937;
+    color: #ffffff;
+}
+.main-top {
+    margin-left: 52px;
+}
+.right-section__title {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-style: "normal";
+    font-weight: "SemiBold";
+    line-height: 37px;
+    margin-top: 51px;
+    margin-bottom: 11px;
+}
+.right-section__text {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Regular";
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 54px;
+}
+.right-section__img {
+    flex-direction: column;
+    margin-left: 65px;
+}
+.right-section__img-display {
+    margin-bottom: 35px;
+}
+.right-section__img-wireless {
+    margin-bottom: 25px;
+}
+.right-section__img-bag {
+    margin-bottom: 171px;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 63px;
+}
+.features-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 49px;
+}
+.features-info:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.features-info__img {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.features-info__img:hover {
+    opacity: 0.1;
+}
+.features-info__desk {
+    margin-right: 22px;
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features__order {
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    width: 160px;
+    height: 46px;
+}
+.features__order:hover {
+    color: yellow;
+    cursor: pointer;
+    border: 2px solid yellow;
+}
+.features__order-desk {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer__left {
+    width: 447px;
+    height: 950px;
+    background-image: url(/images/Red-bg.png);
+    color: #ffffff;
+}
+.footer__left-head {
+    font-family: "Montserrat";
+}
+.footer__title {
+    font-size: 30px;
+    font-style: "normal";
+    font-weight: "SemiBold";
+    line-height: 37px;
+    margin: 51px 68px 12px 56px;
+}
+.footer__text {
+    text-align: left;
+    font-size: 15px;
+    font-style: "normal";
+    font-weight: "Regular";
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin: 0 68px 49px 56px;
+}
+.footer__left-body {
+    font-family: "Montserrat";
+}
+.left-body__title {
+    margin-left: 56px;
+    margin-right: 121px;
+    margin-bottom: 26px;
+    font-size: 30px;
+    font-style: "normal";
+    font-weight: "SemiBold";
+    line-height: 37px;
+    letter-spacing: 0em;
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 56px;
+    margin-right: 94px;
+    margin-bottom: 16px;
+}
+.rating__sub-title {
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-style: "normal";
+    font-weight: "Bold";
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.rating-second {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 56px;
+    margin-right: 94px;
+    margin-bottom: 111px;   
+}
+.rating__add {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.security {
+    margin-left: 66px;
+    margin-bottom: 51px;
+}
+.footer__left-bottom {
+    margin-bottom: 60px;
+}
+.footer-info__order {
+    display: flex;
+    flex-direction: row;
+}
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 49px;
+}
+.footer-info:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.footer-info__img {
+    margin-right: 10px;
+    padding-bottom: 7px;
+}
+.footer-info__img:hover {
+    opacity: 0.1;
+}
+.footer-info__desk {
+    margin-right: 22px;
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer__order {
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    width: 160px;
+    height: 46px;
+}
+.footer__order:hover {
+    border: 2px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.footer__order-desk {
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "Bold";
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer__right {
+    width: 993px;
+}
+.footer__right-title {
+    position: relative;
+    bottom: 75px;
+    text-align: right;
+    font-family: "Montserrat";
+    font-style: "normal";
+    font-weight: "SemiBold";
+    font-size: 195px;
+    line-height: 225px;
+    opacity: 0.15;
+    color: #E51937;
+}
+.right-pc__img {
+    width: 1049px;
+    height: 540px;
+    position: relative;
+    bottom: 425px;
+    right: 100px;
+}
+.right-mobi {
+    display: none;
+}
+.right-mobi__img {
+    display: none;
+}
+.right-ipad {
+    display: none;
+}
+.right-ipad__img {
+    display: none;
+}
