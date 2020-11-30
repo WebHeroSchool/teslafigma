@@ -271,6 +271,9 @@
 .left-section {
     width: 1000px;
 }
+.left-section__img {
+    display: none;
+}
 .left-section__title {
     font-family: "Montserrat";
     font-style: "normal";
@@ -554,7 +557,12 @@
         justify-content: space-between;
     }
     .nav__logo {
-        margin: 0 auto;
+        margin: 0;
+        width: 138px;
+        height: 42px;
+        left: 2px;
+        top: 75px;
+        margin-top: 5px;
     }
     .nav__menu-s {
         display: none;
@@ -579,8 +587,8 @@
         display: none;
     }
     .menu__img-burger {
-        margin-left: 190px;
-        padding-bottom: 25px;
+        margin-left: 130px;
+        padding-bottom: 23px;
     }
     .tesla-title {
         display: block;
@@ -657,6 +665,7 @@
         display: flex;
         justify-content: center;
         margin-left: 20px;
+        margin-bottom: 0px;
     }
     .main {
         max-width: 375px;
@@ -664,12 +673,11 @@
     .main__inner {
         display: flex;
         justify-content: space-around;
-        flex-direction: column-reverse;
+        flex-direction: column;
         background-image: none;
     }
     .left-section__img {
         display: flex;
-        background-image: url(images/ModelS-mobi.png);
     }
     .left-section__title {
         display: none;
@@ -703,25 +711,30 @@
     }
     .footer__left {
         height: 304px;
-        width: 375px;
-        background-image: url(../images/bg-footer-red-mobi.png);
+        min-width: 375px;
+        background: #e51937;
     }
     .footer__left-head {
         height: 304px;
     }
     .footer__title {
+        margin-right: 0;
+        margin-bottom: 11px;
+        margin-top: 18px;
+        margin-left: 40px;
         font-family: "Montserrat";
-        font-size: 30px;
+        font-size: 28px;
         font-style: "normal";
         font-weight: "SemiBold";
-        line-height: 37px;
+        line-height: 35px;
         letter-spacing: 0em;
     }
     .footer__text {
+        margin-left: 40px;
         font-family: "Montserrat";
-        font-size: 15px;
+        font-size: 13px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: "Regular";
         line-height: 18px;
         letter-spacing: 0em;
         text-align: left;
@@ -767,7 +780,7 @@
     }
     .footer__right-title {
         font-family: "Montserrat";
-        font-size: 105px;
+        font-size: 95px;
         font-style: "normal";
         font-weight: "SemiBold";
         line-height: 122px;
