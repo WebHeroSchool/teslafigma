@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin:0; 
-    padding:0; 
+    margin: 0;
+    padding: 0;
 }
 .body {
     max-width: 1440px;
@@ -18,22 +18,24 @@
 }
 .nav {
     margin: 0;
-    padding: 0;
-    text-align: center;
     display: flex;
-    justify-content: center;
     flex-direction: row;
     margin-bottom: 40px;
 }
 .nav__logo {
+    display: flex;
     margin-top: 24px;
-    margin-right: 260px;
+    margin-left: 2%;
+}
+.nav__menu {
+    display: flex;
+    margin-left: 19%;
+    white-space: nowrap;
 }
 .nav__menu-s {
     margin-top: 40px;
     font-family: "Montserrat";
     font-style: "normal";
-    margin-right: 63px;
     text-decoration: none;
     font-size: 15px;
     line-height: 18px;
@@ -52,11 +54,11 @@
     font-style: "normal";
     font-weight: "SemiBold";
     margin-top: 40px;
-    margin-left: 10px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
+    margin-left: 15%;
 }
 .nav__menu-x:hover {
     color: #e51937;
@@ -71,11 +73,11 @@
     font-style: "normal";
     font-weight: "SemiBold";
     margin-top: 40px;
-    margin-left: 25px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
+    margin-left: 11.5%;
 }
 .nav__menu-3:hover {
     color: #e51937;
@@ -90,11 +92,11 @@
     font-style: "normal";
     font-weight: "SemiBold";
     margin-top: 40px;
-    margin-left: 44px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
+    margin-left: 15%;
 }
 .nav__menu-roadster:hover {
     color: #e51937;
@@ -109,12 +111,11 @@
     font-style: "normal";
     font-weight: "SemiBold";
     margin-top: 40px;
-    margin-right: 221px;
-    margin-left: 44px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
+    margin-left: 12.5%;
 }
 .nav__menu-energy:hover {
     color: #e51937;
@@ -126,11 +127,9 @@
 }
 .menu {
     display: flex;
-    justify-content: end;
-    text-align: right;
+    margin-left: 26%;
 }
 .menu__item {
-    margin-right: 30px;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "SemiBold";
@@ -139,6 +138,7 @@
     color: #000000;
     font-size: 15px;
     line-height: 18px;
+    margin-left: 15%;
 }
 .menu__item:hover {
     color: #e51937;
@@ -150,6 +150,7 @@
 }
 .menu__img-burger {
     margin-top: 24px;
+    margin-left: 15%;
 }
 .menu__img-burger:active {
     color: yellow;
@@ -187,6 +188,7 @@
     display: flex;
     margin: 0 auto;
     margin-bottom: 26px;
+    size: 100%;
 }
 .tesla-title__car-mobi {
     display: none;
@@ -264,8 +266,9 @@
     max-width: 1440px;
     display: flex;
     flex-direction: row;
-    margin:0; 
-    padding:0; 
+    margin: 0;
+    padding: 0;
+    size: 100%;
 }
 .main__inner {
     display: flex;
@@ -388,8 +391,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin:0; 
-    padding:0; 
+    margin: 0;
+    padding: 0;
 }
 .footer__left {
     min-width: 445px;
@@ -541,6 +544,7 @@
 .right-pc__img {
     position: relative;
     right: 100px;
+    size: 100%;
 }
 .right-mobi {
     display: none;
@@ -568,8 +572,11 @@
         max-width: 375px;
     }
     .nav {
+        max-width: 375px;
         display: flex;
         justify-content: space-between;
+        margin: 0;
+        padding: 0;
     }
     .nav__logo {
         width: 138px;
@@ -577,7 +584,6 @@
         left: 2px;
         top: 75px;
         margin-top: 5px;
-        margin-right: 190px;
     }
     .nav__menu-s {
         display: none;
@@ -595,7 +601,7 @@
         display: none;
     }
     .menu {
-        max-width: 375px;
+        margin: 0;
     }
     .menu__item {
         display: none;
@@ -603,6 +609,7 @@
     .menu__img-burger {
         position: relative;
         bottom: 9px;
+        right: 25px;
     }
     .tesla-title {
         display: block;
@@ -782,17 +789,20 @@
         display: none;
     }
     .right-mobi {
-        width: 375px;
+        max-width: 375px;
         position: relative;
         display: initial;
         bottom: 120px;
     }
     .right-mobi__img {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 60px;
         display: initial;
     }
     .footer__right-title {
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 375px;
         font-family: "Montserrat";
         font-size: 100px;
         font-style: "normal";
@@ -802,6 +812,7 @@
         opacity: 0.1;
         position: relative;
         text-align: left;
+        right: 8px;
         top: 150px;
     }
 }
