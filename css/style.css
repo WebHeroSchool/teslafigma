@@ -149,7 +149,7 @@
     cursor: pointer;
 }
 .menu__img-burger {
-    margin-top: 24px;
+    margin-top: 16.5%;
     margin-left: 15%;
 }
 .menu__img-burger:active {
@@ -159,12 +159,15 @@
     opacity: 0.1;
     cursor: pointer;
 }
+.menu__img-burger-ipad {
+    display: none;
+}
 .tesla-title {
     display: block;
     background-image: url(/images/Tesla-Wordmark-Red-1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0px 15%;
+    background-position: 0% 15%;
 }
 .tesla-title__subtitle {
     text-align: center;
@@ -223,6 +226,9 @@
 .test-drive__mobile {
     display: none;
 }
+.test-drive__ipad {
+    display: none;
+}
 .test-drive__desk {
     font-family: "Montserrat";
     font-style: "normal";
@@ -262,7 +268,7 @@
     opacity: 0.1;
     cursor: pointer;
 }
-.main {
+/* .main {
     max-width: 1440px;
     display: flex;
     flex-direction: row;
@@ -557,7 +563,7 @@
 }
 .right-ipad__img {
     display: none;
-}
+} */
 @media (max-width: 375px) {
     .body {
         max-width: 375px;
@@ -688,7 +694,7 @@
         margin-left: 20px;
         margin-bottom: 0px;
     }
-    .main {
+    /* .main {
         max-width: 375px;
     }
     .main__inner {
@@ -814,5 +820,129 @@
         text-align: left;
         right: 8px;
         top: 150px;
+    } */
+}
+@media (max-width: 768px) and (min-width: 376px) {
+    .body {
+        max-width: 768px;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        max-width: 768px;
+    }
+    .container {
+        max-width: 768px;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12.5%;
+    }
+    .nav__logo {
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+    .nav__menu {
+        display: none;
+    }
+    .menu__item {
+        display: none;
+    }
+    .menu__img-burger {
+        display: none;
+    }
+    .menu__img-burger-ipad {
+        display: flex;
+        margin-left: 130%;
+        margin-top: 79.5%;
+    }
+    .tesla-title {
+        background-image: url(/images/Tesla-Wordmark-Redipad.png);
+        background-repeat: no-repeat;
+        background-position: 15px 38%;
+        width: 768px;
+    }
+    .tesla-title__subtitle {
+        margin-left: 11%;
+        font-size: 98px;
+        line-height: 110px;
+        letter-spacing: 0em;
+        margin-bottom: 0;
+    }
+    .tesla-title__desk {
+        margin-left: 11%;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        margin-bottom: 12%;
+    }
+    .tesla-title__car-pc {
+        display: none;
+    }
+    .tesla-title__car-ipad {
+        display: block;
+        margin-left: 6.5%;
+        Width: 750px;
+        height: 380px;
+    }
+    .tesla-info-block {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 9.3%;
+    }
+    .info-block {
+        display: flex;
+        margin-bottom: 4.6%;
+        margin-left: 13%;
+        flex-direction: row;
+    }
+    .info-block__img-pc {
+        display: none;
+    }
+    .info-block__img-ipad-right {
+        margin-left: 14%;
+    }
+    .info-block__img-ipad-left {
+        margin-left: 10%;
+    }
+    .test-drive {
+        margin-left: 25.5%;
+    }
+    .test-drive__responsive {
+        display: none;
+    }
+    .test-drive__ipad {
+        display: block;
+    }
+    .test-drive__desk {
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: "normal";
+        font-weight: "SemiBold";
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .order {
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: "normal";
+        font-weight: "SemiBold";
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        background:#E51937;
+        height: 54px;
+        width: 43%;
+        margin-left: 0.5%;
+        padding-top: 2.2%;
+    }
+    .go-bottom {
+        margin-left: 11%;
     }
 }
