@@ -5,40 +5,48 @@
 }
 .body {
     max-width: 1440px;
+    min-width: 1440px;
+    max-width: 100%;
     font-family: "Montserrat";
     margin: 0;
     padding: 0;
 }
 .header {
-    max-width: 1440px;
+    max-width: 100%;
 }
 .container {
-    max-width: 1440px;
-    margin-bottom: 40px;
+    max-width: 100%;
+    margin-bottom: 1.8%;
 }
 .nav {
+    max-width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
+    margin-bottom: 4.1%;
 }
 .nav__logo {
+    max-width: 100%;
     display: flex;
-    margin-top: 24px;
-    margin-left: 2%;
+    margin-top: 1.7%;
+    margin-left: 2.9%;
+    width: 166px;
+    height: 51px;
 }
 .nav__menu {
+    max-width: 100%;
+    margin-top: 2.8%;
     display: flex;
-    margin-left: 19%;
+    margin-left: 18%;
     white-space: nowrap;
 }
 .nav__menu-s {
-    margin-top: 40px;
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     text-decoration: none;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 19px;
     color: #000000;
 }
 .nav__menu-s:hover {
@@ -50,15 +58,15 @@
     cursor: pointer;
 }
 .nav__menu-x {
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "SemiBold";
-    margin-top: 40px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    line-height: 18px;
-    margin-left: 15%;
+    line-height: 19px;
+    margin-left: 19.7%;
 }
 .nav__menu-x:hover {
     color: #e51937;
@@ -69,15 +77,16 @@
     cursor: pointer;
 }
 .nav__menu-3 {
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "SemiBold";
-    margin-top: 40px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
-    margin-left: 11.5%;
+    margin-left: 8%;
+    margin-top: 0.1%;
 }
 .nav__menu-3:hover {
     color: #e51937;
@@ -88,17 +97,19 @@
     cursor: pointer;
 }
 .nav__menu-roadster {
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "SemiBold";
-    margin-top: 40px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
-    margin-left: 15%;
+    margin-left: 13.5%;
+    margin-top: 0.1%;
 }
 .nav__menu-roadster:hover {
+    max-width: 100%;
     color: #e51937;
     background-image: url(/images/underlining.png);
     background-size: contain;
@@ -107,15 +118,16 @@
     cursor: pointer;
 }
 .nav__menu-energy {
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "SemiBold";
-    margin-top: 40px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
-    margin-left: 12.5%;
+    margin-left: 14.6%;
+    margin-top: 0.1%;
 }
 .nav__menu-energy:hover {
     color: #e51937;
@@ -126,19 +138,21 @@
     cursor: pointer;
 }
 .menu {
+    max-width: 100%;
+    margin-top: 2.88%;
     display: flex;
-    margin-left: 26%;
+    margin-left: 25.7%;
 }
 .menu__item {
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "SemiBold";
-    margin-top: 40px;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
-    margin-left: 15%;
+    margin-left: 18.8%;
 }
 .menu__item:hover {
     color: #e51937;
@@ -149,8 +163,10 @@
     cursor: pointer;
 }
 .menu__img-burger {
-    margin-top: 16.5%;
-    margin-left: 15%;
+    max-width: 100%;
+    position: relative;
+    bottom: 26%;
+    left: 21.8%;
 }
 .menu__img-burger:active {
     color: yellow;
@@ -163,35 +179,35 @@
     display: none;
 }
 .tesla-title {
-    display: block;
+    max-width: 100%;
     background-image: url(/images/Tesla-Wordmark-Red-1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0% 15%;
 }
 .tesla-title__subtitle {
+    max-width: 100%;
     text-align: center;
-    margin-bottom: 9px;
     font-family: "Montserrat";
-    font-size: 90px;
+    font-size: 89px;
     font-style: "normal";
     font-weight: "SemiBold";
-    line-height: 110px;
+    line-height: 106px;
 }
 .tesla-title__desk {
+    max-width: 100%;
     text-align: center;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "Regular";
     font-size: 15px;
-    line-height: 18px;
-    margin-bottom: 26px;
+    line-height: 4px;
+    margin-bottom: 2.3%;
 }
 .tesla-title__car-pc {
+    max-width: 100%;
     display: flex;
-    margin: 0 auto;
-    margin-bottom: 26px;
-    size: 100%;
+    margin-left: 13.9%;
+    margin-bottom: 1.9%;
 }
 .tesla-title__car-mobi {
     display: none;
@@ -200,16 +216,21 @@
     display: none;
 }
 .tesla-info-block {
+    max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .info-block__img-pc {
-    margin-right: 105px;
+    max-width: 100%;
+    display: flex;
+    margin-left: 68%;
 }
-.info-block__img-ipad {
+.info-block__img-ipad-left {
     display: none;
 }
-
+.info-block__img-ipad-right {
+    display: none;
+}
 .info-block__mobile-right {
     display: none;
 }
@@ -217,11 +238,14 @@
     display: none;
 }
 .test-drive {
+    max-width: 100%;
+    margin-right: 21.5%;
     display: flex;
+    margin-top: 0.8%;
 }
 .test-drive__responsive {
-    padding-bottom: 30px;
-    margin-right: 9px;
+    max-width: 100%;
+    padding-bottom: 7.5%;
 }
 .test-drive__mobile {
     display: none;
@@ -230,24 +254,27 @@
     display: none;
 }
 .test-drive__desk {
+    max-width: 100%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "Bold";
     font-size: 13px;
     line-height: 16px;
     text-transform: uppercase;
-    margin-right: 40px;
-    margin-top: 9px;
+    white-space: nowrap;
+    padding-top: 4%;
+    margin-left: 2.6%;
 }
 .order {
-    padding: 10px;
+    max-width: 100%;
+    margin-left: 15%;
+    padding: 3.4%;
     font-family: "Montserrat";
     font-style: "normal";
     font-weight: "Bold";
-    width: 160px;
+    min-width: 160px;
     height: 40px;
     border: 2px solid #e51937;
-    box-sizing: border-box;
     font-size: 13px;
     line-height: 16px;
     text-align: center;
@@ -260,6 +287,7 @@
     border: 2px solid green;
 }
 .go-bottom {
+    max-width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 37px;
@@ -580,16 +608,16 @@
     .nav {
         max-width: 375px;
         display: flex;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0;
+        align-items: center;
+        margin-bottom: 8%;
     }
     .nav__logo {
+        padding: 0;
+        margin: 0;
         width: 138px;
         height: 42px;
-        left: 2px;
-        top: 75px;
-        margin-top: 5px;
+        margin-top: 1.2%;
+        margin-left: 0.5%;
     }
     .nav__menu-s {
         display: none;
@@ -613,17 +641,20 @@
         display: none;
     }
     .menu__img-burger {
-        position: relative;
-        bottom: 9px;
-        right: 25px;
+        position: static;
+        display: flex;
+        margin-top: 5%;
+        margin-left: 123px;
     }
     .tesla-title {
+        max-width: 100%;
         display: block;
         background-image: url(/images/Tesla-Wordmark-Red-mobi.png);
         background-size: auto;
         background-repeat: no-repeat;
         background-position: 0px 15%;
         background-position-y: 65px;
+        margin-bottom: 4%;
     }
     .tesla-title__subtitle {
         font-family: "Montserrat";
@@ -640,17 +671,22 @@
         font-weight: "Regular";
         font-size: 10px;
         line-height: 12px;
+        margin-bottom: 12.5%;
     }
     .tesla-title__car-pc {
         display: none;
     }
     .tesla-title__car-mobi {
+        margin: 0;
+        max-width: 100%;
         display: initial;
         text-align: center;
+        margin-left: 2%;
     }
     .tesla-info-block {
         display: flex;
         flex-direction: column;
+        margin-bottom: 8%;
     }
     .info-block__img-pc {
         display: none;
@@ -659,39 +695,47 @@
         display: none;
     }
     .info-block {
+        max-width: 100%;
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
-        margin-bottom: 43px;
+        margin-bottom: 0;
     }
     .info-block__mobile-right {
+        max-width: 100%;
         display: initial;
+        margin-right: 7.5%;
     }
     .info-block__mobile-left {
+        max-width: 100%;
         display: initial;
+        margin-left: 5%;
     }
     .test-drive {
         display: flex;
-        justify-content: center;
+        margin-top: 11.3%;
+        margin-left: 9.5%;
     }
     .test-drive__responsive {
         display: none;
     }
     .test-drive__mobile {
         display: initial;
-        margin-right: 8px;
     }
     .test-drive__desk {
+        margin: 0;
+        padding-top: 4.6%;
         color: #e51937;
+        margin-left: 2.8%;
     }
     .order {
+        margin-left: 10%;
         color: #ffffff;
         background-color: #e51937;
     }
     .go-bottom {
         display: flex;
         justify-content: center;
-        margin-left: 20px;
         margin-bottom: 0px;
     }
     /* .main {
@@ -825,6 +869,7 @@
 @media (max-width: 768px) and (min-width: 376px) {
     .body {
         max-width: 768px;
+        min-width: 768px;
         margin: 0;
         padding: 0;
     }
@@ -833,18 +878,28 @@
     }
     .container {
         max-width: 768px;
+        margin-bottom: 8%;
     }
     .nav {
+        margin: 0;
+        padding: 0;
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 12.5%;
+        margin-bottom: 10.3%;
     }
     .nav__logo {
-        margin-left: 3%;
-        margin-top: 4%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-left: 2%;
+        margin-top: 3.1%;
     }
     .nav__menu {
         display: none;
+    }
+    .menu {
+        display: flex;
+        margin-left: 67.4%;
+        margin-top: 3.1%;
     }
     .menu__item {
         display: none;
@@ -854,95 +909,100 @@
     }
     .menu__img-burger-ipad {
         display: flex;
-        margin-left: 130%;
-        margin-top: 79.5%;
     }
     .tesla-title {
+        max-width: 100%;
         background-image: url(/images/Tesla-Wordmark-Redipad.png);
         background-repeat: no-repeat;
-        background-position: 15px 38%;
-        width: 768px;
+        background-position: 0px 38%;
     }
     .tesla-title__subtitle {
-        margin-left: 11%;
-        font-size: 98px;
+        font-size: 89px;
         line-height: 110px;
         letter-spacing: 0em;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
     }
     .tesla-title__desk {
-        margin-left: 11%;
-        font-size: 16px;
-        line-height: 18px;
+        position: relative;
+        font-size: 14.5px;
+        line-height: 15px;
         letter-spacing: 0em;
-        margin-bottom: 12%;
+        bottom: 6px;
+        margin-bottom: 10%;
     }
     .tesla-title__car-pc {
         display: none;
     }
     .tesla-title__car-ipad {
+        max-width: 100%;
         display: block;
         margin-left: 6.5%;
-        Width: 750px;
-        height: 380px;
+        margin-bottom: 2.8%;
     }
     .tesla-info-block {
         display: flex;
         flex-direction: column;
-        margin-bottom: 9.3%;
-    }
-    .info-block {
-        display: flex;
-        margin-bottom: 4.6%;
-        margin-left: 13%;
-        flex-direction: row;
     }
     .info-block__img-pc {
         display: none;
     }
     .info-block__img-ipad-right {
-        margin-left: 14%;
+        max-width: 100%;
+        display: flex;
+        margin-left: 9.2%;
     }
     .info-block__img-ipad-left {
+        max-width: 100%;
+        display: flex;
         margin-left: 10%;
     }
+    .info-block {
+        max-width: 100%;
+        display: flex;
+        margin-left: 9%;
+        flex-direction: row;
+        margin-bottom: 2.4%;
+    }
     .test-drive {
-        margin-left: 25.5%;
+        max-width: 100%;
+        display: flex;
+        margin-left: 22.6%;
     }
     .test-drive__responsive {
         display: none;
     }
     .test-drive__ipad {
-        display: block;
+        max-width: 100%;
+        display: flex;
+        margin-top: 3%;
     }
     .test-drive__desk {
+        display: flex;
         font-family: "Montserrat";
         font-size: 16px;
         font-style: "normal";
         font-weight: "SemiBold";
         line-height: 22px;
-        letter-spacing: 0.1em;
+        letter-spacing: 0em;
         align-items: center;
         text-align: center;
         text-transform: uppercase;
-        margin-left: 3%;
-        margin-top: 2%;
+        margin-left: 3.6%;
     }
     .order {
         font-family: "Montserrat";
         font-size: 16px;
         font-style: "normal";
         font-weight: "SemiBold";
-        line-height: 20px;
-        letter-spacing: 0.1em;
+        line-height: 18px;
+        letter-spacing: 0em;
         color: #ffffff;
-        background:#E51937;
-        height: 54px;
-        width: 43%;
-        margin-left: 0.5%;
-        padding-top: 2.2%;
-    }
-    .go-bottom {
-        margin-left: 11%;
+        background: #e51937;
+        height: 55px;
+        width: 222px;
+        padding-top: 3.6%;
+        margin-left: 9.65%;
+        margin-top: 3.1%;
     }
 }
