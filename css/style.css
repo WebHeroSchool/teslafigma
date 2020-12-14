@@ -5,45 +5,41 @@
 }
 .body {
     max-width: 1440px;
-    min-width: 1440px;
-    max-width: 100%;
-    font-family: "Montserrat";
+    min-width: 769px;
+    max-height: 100%;
+    font-family: Montserrat;
     margin: 0;
     padding: 0;
-}
-.header {
-    max-width: 100%;
+    /* overflow: hidden; */
+    width: 1440px;
 }
 .container {
-    max-width: 100%;
     margin-bottom: 1.8%;
 }
 .nav {
-    max-width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
-    margin-bottom: 4.1%;
+    margin-bottom: 4.13%;
 }
 .nav__logo {
-    max-width: 100%;
+    display: block;
     display: flex;
-    margin-top: 1.7%;
+    margin-top: 1.55%;
     margin-left: 2.9%;
     width: 166px;
     height: 51px;
 }
 .nav__menu {
-    max-width: 100%;
-    margin-top: 2.8%;
+    margin-top: 2.69%;
     display: flex;
     margin-left: 18%;
     white-space: nowrap;
 }
 .nav__menu-s {
-    max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
+    font-weight: "SemiBold";
+    font-style: normal;
     text-decoration: none;
     font-size: 15px;
     line-height: 19px;
@@ -58,9 +54,7 @@
     cursor: pointer;
 }
 .nav__menu-x {
-    max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "SemiBold";
     text-decoration: none;
     color: #000000;
@@ -77,9 +71,7 @@
     cursor: pointer;
 }
 .nav__menu-3 {
-    max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "SemiBold";
     text-decoration: none;
     color: #000000;
@@ -97,9 +89,7 @@
     cursor: pointer;
 }
 .nav__menu-roadster {
-    max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "SemiBold";
     text-decoration: none;
     color: #000000;
@@ -109,7 +99,6 @@
     margin-top: 0.1%;
 }
 .nav__menu-roadster:hover {
-    max-width: 100%;
     color: #e51937;
     background-image: url(/images/underlining.png);
     background-size: contain;
@@ -120,7 +109,6 @@
 .nav__menu-energy {
     max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "SemiBold";
     text-decoration: none;
     color: #000000;
@@ -138,21 +126,18 @@
     cursor: pointer;
 }
 .menu {
-    max-width: 100%;
-    margin-top: 2.88%;
+    margin-top: 2.8%;
     display: flex;
     margin-left: 25.7%;
 }
 .menu__item {
-    max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "SemiBold";
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 18px;
-    margin-left: 18.8%;
+    margin-left: 18.6%;
 }
 .menu__item:hover {
     color: #e51937;
@@ -163,9 +148,8 @@
     cursor: pointer;
 }
 .menu__img-burger {
-    max-width: 100%;
     position: relative;
-    bottom: 26%;
+    bottom: 28%;
     left: 21.8%;
 }
 .menu__img-burger:active {
@@ -185,29 +169,25 @@
     background-repeat: no-repeat;
 }
 .tesla-title__subtitle {
-    max-width: 100%;
     text-align: center;
     font-family: "Montserrat";
     font-size: 89px;
-    font-style: "normal";
     font-weight: "SemiBold";
     line-height: 106px;
 }
 .tesla-title__desk {
-    max-width: 100%;
     text-align: center;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "Regular";
     font-size: 15px;
     line-height: 4px;
     margin-bottom: 2.3%;
 }
 .tesla-title__car-pc {
-    max-width: 100%;
     display: flex;
     margin-left: 13.9%;
-    margin-bottom: 1.9%;
+    margin-bottom: 1.69%;
+    max-width: 100vmax;
 }
 .tesla-title__car-mobi {
     display: none;
@@ -216,14 +196,15 @@
     display: none;
 }
 .tesla-info-block {
-    max-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+.info-block {
+    margin-top: 0.1%;
+    margin-right: 2.44%;
 }
 .info-block__img-pc {
-    max-width: 100%;
     display: flex;
-    margin-left: 68%;
 }
 .info-block__img-ipad-left {
     display: none;
@@ -238,14 +219,12 @@
     display: none;
 }
 .test-drive {
-    max-width: 100%;
-    margin-right: 21.5%;
     display: flex;
-    margin-top: 0.8%;
+    margin-top: 0.9%;
+    margin-right: 3.58%;
 }
 .test-drive__responsive {
-    max-width: 100%;
-    padding-bottom: 7.5%;
+    padding-bottom: 5.9%;
 }
 .test-drive__mobile {
     display: none;
@@ -254,23 +233,19 @@
     display: none;
 }
 .test-drive__desk {
-    max-width: 100%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "Bold";
     font-size: 13px;
     line-height: 16px;
     text-transform: uppercase;
     white-space: nowrap;
-    padding-top: 4%;
+    padding-top: 4.2%;
     margin-left: 2.6%;
 }
 .order {
-    max-width: 100%;
     margin-left: 15%;
-    padding: 3.4%;
+    padding: 3.2%;
     font-family: "Montserrat";
-    font-style: "normal";
     font-weight: "Bold";
     min-width: 160px;
     height: 40px;
@@ -287,7 +262,6 @@
     border: 2px solid green;
 }
 .go-bottom {
-    max-width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 37px;
@@ -869,12 +843,12 @@
 @media (max-width: 768px) and (min-width: 376px) {
     .body {
         max-width: 768px;
-        min-width: 768px;
+        min-width: 376px;
         margin: 0;
         padding: 0;
     }
     .header {
-        max-width: 768px;
+        width: 768px;
     }
     .container {
         max-width: 768px;
@@ -939,6 +913,8 @@
         display: block;
         margin-left: 6.5%;
         margin-bottom: 2.8%;
+        align-items: center;
+        text-align: center;
     }
     .tesla-info-block {
         display: flex;
@@ -981,7 +957,6 @@
         display: flex;
         font-family: "Montserrat";
         font-size: 16px;
-        font-style: "normal";
         font-weight: "SemiBold";
         line-height: 22px;
         letter-spacing: 0em;
@@ -993,7 +968,6 @@
     .order {
         font-family: "Montserrat";
         font-size: 16px;
-        font-style: "normal";
         font-weight: "SemiBold";
         line-height: 18px;
         letter-spacing: 0em;
@@ -1001,6 +975,8 @@
         background: #e51937;
         height: 55px;
         width: 222px;
+        align-items: center;
+        text-align: center;
         padding-top: 3.6%;
         margin-left: 9.65%;
         margin-top: 3.1%;
