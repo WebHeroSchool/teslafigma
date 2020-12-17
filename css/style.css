@@ -4,43 +4,31 @@
     padding: 0;
 }
 .body {
-    max-width: 1440px;
+    max-width: 100vmax;
     min-width: 769px;
-    max-height: 100%;
-    font-family: Montserrat;
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; */
-    width: 1440px;
-}
-.container {
-    margin-bottom: 1.8%;
+    text-align: center;
+    object-fit: contain;
 }
 .nav {
-    margin: 0;
+    max-width: 100vmax;
+    min-width: 100vmin;
     display: flex;
     flex-direction: row;
-    margin-bottom: 4.13%;
-    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.7%;
+    margin-bottom: 4.7%;
+    white-space: nowrap;
 }
 .nav__logo {
-    display: block;
+    max-width: 100vmax;
     display: flex;
-    margin-top: 1.55%;
-    /* margin-left: 2.9%; */
-    width: 166px;
-    height: 51px;
-}
-.nav__menu {
-    margin-top: 2.69%;
-    display: flex;
-    justify-content: space-between;
-    /* margin-left: 18%; */
-    /* white-space: nowrap; */
+    margin-left: 2.9vw;
 }
 .nav__menu-s {
-    font-family: "Montserrat";
-    font-weight: "SemiBold";
+    max-width: 100vmax;
+    margin-left: 17.9vw;
+    font-family: Montserrat;
+    font-weight: 600;
     font-style: normal;
     text-decoration: none;
     font-size: 15px;
@@ -52,17 +40,18 @@
     background-image: url(/images/underlining.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 21px;
+    background-position-y: 2px;
     cursor: pointer;
 }
 .nav__menu-x {
-    font-family: "Montserrat";
-    font-weight: "SemiBold";
+    max-width: 100vmax;
+    font-family: Montserrat;
+    font-weight: 600;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     line-height: 19px;
-    /* margin-right: 19.7%; */
+    margin-left: 4.35vw;
 }
 .nav__menu-x:hover {
     color: #e51937;
@@ -73,14 +62,14 @@
     cursor: pointer;
 }
 .nav__menu-3 {
-    font-family: "Montserrat";
-    font-weight: "SemiBold";
+    max-width: 100vmax;
+    font-family: Montserrat;
+    font-weight: 600;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    line-height: 18px;
-    /* margin-left: 8%; */
-    margin-top: 0.1%;
+    line-height: 19px;
+    margin-left: 1.7vw;
 }
 .nav__menu-3:hover {
     color: #e51937;
@@ -91,14 +80,14 @@
     cursor: pointer;
 }
 .nav__menu-roadster {
-    font-family: "Montserrat";
-    font-weight: "SemiBold";
+    max-width: 100vmax;
+    font-family: Montserrat;
+    font-weight: 600;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    line-height: 18px;
-    /* margin-left: 13.5%; */
-    margin-top: 0.1%;
+    line-height: 19px;
+    margin-left: 3vw;
 }
 .nav__menu-roadster:hover {
     color: #e51937;
@@ -109,15 +98,14 @@
     cursor: pointer;
 }
 .nav__menu-energy {
-    max-width: 100%;
-    font-family: "Montserrat";
-    font-weight: "SemiBold";
+    max-width: 100vmax;
+    font-family: Montserrat;
+    font-weight: 600;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    line-height: 18px;
-    /* margin-left: 14.6%; */
-    margin-top: 0.1%;
+    line-height: 19px;
+    margin-left: 3.2vw;
 }
 .nav__menu-energy:hover {
     color: #e51937;
@@ -127,21 +115,35 @@
     background-position-y: 21px;
     cursor: pointer;
 }
-.menu {
-    margin-top: 2.8%;
-    display: flex;
-    /* margin-left: 25.7%; */
-}
-.menu__item {
-    font-family: "Montserrat";
-    font-weight: "SemiBold";
+.menu__shop {
+    max-width: 100vmax;
+    font-family: Montserrat;
+    font-weight: 600;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
-    line-height: 18px;
-    /* margin-left: 18.6%; */
+    line-height: 19px;
+    margin-left: 15.25vw;
 }
-.menu__item:hover {
+.menu__shop:hover {
+    color: #e51937;
+    background-image: url(/images/underlining.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    cursor: pointer;
+}
+.menu__enter {
+    max-width: 100vmax;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 2.1vw;
+}
+.menu__enter:hover {
     color: #e51937;
     background-image: url(/images/underlining.png);
     background-size: contain;
@@ -150,9 +152,8 @@
     cursor: pointer;
 }
 .menu__img-burger {
-    /* position: relative;
-    bottom: 28%; */
-    /* left: 21.8%; */
+    max-width: 100vmax;
+    margin-left: 2.05vw;
 }
 .menu__img-burger:active {
     color: yellow;
@@ -165,32 +166,36 @@
     display: none;
 }
 .tesla-title {
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
     background-image: url(/images/Tesla-Wordmark-Red-1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    object-fit: contain;
+    max-width: 100%;
 }
 .tesla-title__subtitle {
     text-align: center;
-    font-family: "Montserrat";
-    font-size: 89px;
-    font-weight: "SemiBold";
-    line-height: 106px;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 0.6%;
 }
 .tesla-title__desk {
     text-align: center;
-    font-family: "Montserrat";
-    font-weight: "Regular";
-    font-size: 15px;
-    line-height: 4px;
-    /* margin-bottom: 2.3%; */
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 92%;
+    line-height: 18%;
+    margin-bottom: 2.3%;
+
 }
 .tesla-title__car-pc {
-    display: flex;
-    justify-content: center;
-    /* margin-left: 13.9%; */
-    /* margin-bottom: 1.69%; */
-    /* max-width: 100vmax; */
+    max-width: 100vmax;
+    object-fit: contain;
+    margin-right: 5%;
+    margin-bottom: 1.8%;
 }
 .tesla-title__car-mobi {
     display: none;
@@ -199,8 +204,10 @@
     display: none;
 }
 .tesla-info-block {
+    max-width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 1.8%;
 }
 .info-block {
     margin-top: 0.1%;
@@ -236,8 +243,8 @@
     display: none;
 }
 .test-drive__desk {
-    font-family: "Montserrat";
-    font-weight: "Bold";
+    font-family: Montserrat;
+    font-weight: Bold;
     font-size: 13px;
     line-height: 16px;
     text-transform: uppercase;
@@ -248,8 +255,8 @@
 .order {
     margin-left: 15%;
     padding: 3.2%;
-    font-family: "Montserrat";
-    font-weight: "Bold";
+    font-family: Montserrat;
+    font-weight: Bold;
     min-width: 160px;
     height: 40px;
     border: 2px solid #e51937;
@@ -265,6 +272,7 @@
     border: 2px solid green;
 }
 .go-bottom {
+    max-width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 37px;
