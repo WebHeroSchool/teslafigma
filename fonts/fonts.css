@@ -1,25 +1,24 @@
-
 @font-face {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("./Montserrat-Light.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: 400;
+  font-weight: Light;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("./Montserrat-Regular.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: 500;
+  font-weight: Regular;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("./Montserrat-SemiBold.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: 600;
+  font-weight: SemiBold;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("./Montserrat-Bold.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: 700;
+  font-weight: Bold;
   font-style: normal;
 }
